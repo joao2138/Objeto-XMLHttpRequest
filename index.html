@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objeto XMLHttpRequest</title>
+
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 103%;
+        color: aliceblue;
+      }
+      input{
+        background-color: #1741ff;
+        border: none;
+        border-radius: 13px;
+        padding: 6px 9px;
+      }
+      input:hover{
+        background-color: #0330f8;
+      }
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2f2f2f;
+      }
+      .container {
+        max-width: 800px;
+        height: auto;
+        padding: 10px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>Utilizando o objeto <strong>XMLHttpRequest</strong></p>
+      <p>para fazer uma requicição</p>
+
+      <input type="button" onclick="main();" value="Enviar requisição">
+
+      <div id="content"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
